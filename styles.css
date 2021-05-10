@@ -28,3 +28,44 @@ body
 {
     color: #F2F2F2;
 }
+
+a
+{
+    text-decoration: none;
+
+}
+
+a:visited
+{
+    text-decoration: none;
+    color: #333;
+}
+
+.signin
+{
+    color: #0065FC;
+}
+
+.signin a:visited
+{
+    text-decoration: none;
+    color: #0065FC;
+}
+
+.search
+{
+    background-color: #0065FC;
+    color: white;
+    cursor: pointer;
+}
+
+.fas.fa-search
+{
+    color: white;
+}
+
+.Button_filter i, .Button_info i
+{
+    background-color:#DEEBFF;
+    color: #0065FC;
+}
