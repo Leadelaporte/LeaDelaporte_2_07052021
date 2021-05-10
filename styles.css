@@ -29,6 +29,11 @@ body
     color: #F2F2F2;
 }
 
+.fa-star
+{
+    color: #0065FC;
+}
+
 a
 {
     text-decoration: none;
@@ -66,6 +71,37 @@ a:visited
 
 .Button_filter i, .Button_info i
 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    padding: 0.8em;
+    border-radius: 30px;
     background-color:#DEEBFF;
     color: #0065FC;
 }
+
+li
+{
+    list-style: none;
+}
+
+.Navigate
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline ;
+}
+
+nav ul
+{
+    display: flex;
+
+}
+
