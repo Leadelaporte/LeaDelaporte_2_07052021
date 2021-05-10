@@ -84,12 +84,14 @@ a:visited
 li
 {
     list-style: none;
+    padding : 40px;
 }
 
 .Navigate
 {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .menu
@@ -97,11 +99,17 @@ li
     display: flex;
     justify-content: flex-end;
     align-items: baseline ;
+   
 }
 
 nav ul
 {
     display: flex;
+    padding: 40px;
 
 }
 
+header
+{
+    display: flex;
+}
