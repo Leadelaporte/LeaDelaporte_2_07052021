@@ -344,6 +344,54 @@ h3
     padding-left: 1.5em;
 }
 
+/* Les plus populaires */
+
+.all_hebergment
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular_container
+{
+    height: 40em;
+    width: 33em;
+    border-radius: 15px;
+}
+
+.boxp
+{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 29em;
+    height: 10em;
+    margin-bottom: 1em;
+}
+
+.boxp img
+{
+    height: 5em;
+    width: 7.5em;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.container_box
+{
+    margin: 2em;
+}
+
+.pop
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+
 /* Footer */
 
 footer li
