@@ -46,9 +46,16 @@ a:visited
     color: #333;
 }
 
+/* header */
+
 .signin
 {
     color: #0065FC;
+    padding-left: 40px;
+    padding-bottom: 11px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
 }
 
 .signin a:visited
@@ -56,6 +63,51 @@ a:visited
     text-decoration: none;
     color: #0065FC;
 }
+
+header li
+{
+    list-style: none;
+    padding-left: 40px;
+}
+
+.Navigate
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;   
+}
+
+.Navigate img
+{
+    height: 50px;
+    padding-top: 8px;
+}
+
+.menu
+{
+    display: flex;
+}
+
+ol
+{
+    display: flex;
+    align-items: center;
+}
+
+nav a
+{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+}
+
+nav a:hover
+{
+    color:#0065FC;
+    border-top: 3px solid #0065FC;
+}
+
+/* Recherche */
 
 .search
 {
@@ -69,6 +121,8 @@ a:visited
     color: white;
 }
 
+/* Filtres */
+
 .Button_filter i, .Button_info i
 {
     display: flex;
@@ -81,36 +135,9 @@ a:visited
     color: #0065FC;
 }
 
-li
+/* Footer */
+
+footer li
 {
     list-style: none;
-    padding : 40px;
-}
-
-.Navigate
-{
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-.menu
-{
-    display: flex;
-    justify-content: flex-end;
-    align-items: baseline ;
-   
-}
-
-nav ul
-{
-    display: flex;
-    padding: 40px;
-
-}
-
-header
-{
-    display: flex;
-    justify-content: space-between;
 }
