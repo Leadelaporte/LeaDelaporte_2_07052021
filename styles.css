@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
 
 /* Page */
 
@@ -109,11 +109,53 @@ nav a:hover
 
 /* Recherche */
 
+.second_part
+{
+    padding-top: 1em;
+}
+
+.second_part p
+{
+    margin-top: 0px;
+}
+
+h1
+{
+    font-size: 1.4em;
+    margin-bottom: 0px;
+}
+
+.recherche
+{
+    display: flex;
+    height: 40px;
+}
+
+.fas.fa-map-marker-alt
+{
+    padding: 0.8em;
+    background-color: #F2F2F2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#MaRecherche
+{
+    height: 40px;
+    width: 240px;
+    border: 1px #F2F2F2 solid;
+}
 .search
 {
     background-color: #0065FC;
     color: white;
+    font-size: 1.1em;
     cursor: pointer;
+    height: 40px;
+    width: 140px;
+    border: 1px #0065FC solid;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .fas.fa-search
@@ -121,6 +163,13 @@ nav a:hover
     color: white;
 }
 
+::placeholder
+{
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+    padding-left: 15px;
+}
 /* Filtres */
 
 .Button_filter i, .Button_info i
