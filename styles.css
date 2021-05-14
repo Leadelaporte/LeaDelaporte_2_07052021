@@ -247,13 +247,14 @@ h2
 .Button_info p
 {
     padding-left: 1em;
+    padding-bottom: 2em;
 }
 
 /* Hébergements */
 
 .Hebergment_container
 {
-    width: 59em;
+    width: 62em;
     height: 40em;
     border-radius: 15px;
 }
@@ -263,16 +264,14 @@ h2
     display: flex;
     justify-content: space-around;
     margin-bottom: 2em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    
 }
 
 .second_ligne
 {
     display: flex;
     justify-content: space-around;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+   
 }
 
 
@@ -314,27 +313,27 @@ h2
 
 h3
 {
-    margin-left: 6px;
+    margin-left: 0.8em;
     margin-bottom: 4px;
     margin-top: 4px;
 }
 
-.Hebergment_container p
+.Hebergment_container p 
 {
-    margin-left: 6px;
+    margin-left: 1em;
     margin-top: 8px;
     margin-bottom: 8px;
 }
 
 .Star 
 {
-    margin-left: 6px;
+    margin-left: 1em;
 }
 
 .Hebergment_container h2
 {
-    padding-top: 2em;
-    padding-left: 1.5em;
+    padding-top: 1em;
+    padding-left: 2.7em;
 }
 
 .more 
@@ -355,8 +354,18 @@ h3
 .popular_container
 {
     height: 40em;
-    width: 33em;
+    width: 30em;
     border-radius: 15px;
+}
+
+.popular_container h3
+{
+    margin-left: 0px;
+}
+
+.popular_container .Star
+{
+    margin-left: 0px;
 }
 
 .boxp
@@ -364,14 +373,17 @@ h3
     background-color: white;
     display: flex;
     flex-direction: row;
-    width: 29em;
-    height: 10em;
-    margin-bottom: 1em;
+    width: 24em;
+    height: 9em;
+    margin-bottom: 2em;
+    margin-left: 0.7em;
+    border-radius: 15px;
+    border: 4px white solid;
 }
 
 .boxp img
 {
-    height: 5em;
+    height: 9em;
     width: 7.5em;
     object-fit: cover;
     border-top-left-radius: 15px;
@@ -383,13 +395,35 @@ h3
     margin: 2em;
 }
 
+.popular_container .container_box
+{
+    margin-top: 0.7em;
+}
+
 .pop
 {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    margin-top: 1.5em;
+    padding-left: 2.7em;
+    padding-right: 2.7em;
 }
 
+.boxp a
+{
+    display: flex;
+}
+
+.menu_hotel
+{
+    margin-left: 1em;
+}
+
+.boxp:hover
+{
+    transform: scale(1.10);
+}
 
 
 /* Footer */
