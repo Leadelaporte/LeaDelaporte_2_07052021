@@ -78,7 +78,7 @@ header li
 
 .menu
 {
-    display: flex;
+    margin-left: auto;
 }
 
 ol
@@ -162,6 +162,10 @@ h1
     color: black;
     opacity: 1;
     font-weight: bold;
+}
+
+input
+{
     padding-left: 15px;
 }
 

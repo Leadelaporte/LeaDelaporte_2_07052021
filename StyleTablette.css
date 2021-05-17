@@ -89,7 +89,7 @@ header li
 
 .menu
 {
-    display: flex;
+    margin-left: auto;
 }
 
 ol

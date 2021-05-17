@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* Page */
+
+body
+{
+    font-family: "Raleway", sans-serif;
+    margin: 0px;
+    
+}
+
+.bloc_page
+{
+    padding-top: 0.5em;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.popular_container, footer
+{
+    background-color: #F2F2F2 ;
+}
+
+a
+{
+    text-decoration: none;
+    color: #333;
+
+}
+
+a:visited
+{
+    text-decoration: none;
+    color: #333;
+}
+
+.fa-star.gris
+{
+    color: #F2F2F2;
+}
+
+.fa-star
+{
+    color: #0065FC;
+}
+
+/* Header */
+
+.signin
+{
+    align-items: center;
+    font-weight: bold;
+    position: absolute;
+    top: 2.5em;
+    right: 1.5em;
+}
+
+.signin a
+{
+    color: #0065FC;
+}
+
+.signin a:visited
+{
+    text-decoration: none;
+    color: #0065FC;
+}
+
+header li
+{
+    list-style: none;
+    padding-left: 40px;
+}
+
+.Navigate
+{
+    justify-content: space-between;
+    margin-top: 10px;   
+    
+}
+
+.Navigate img
+{
+    height: 50px;
+    padding-top: 8px;
+}
+
+.menu
+{
+    display: flex;
+}
+
+ol
+{
+    display: flex;
+    align-items: center;
+}
+
+nav a
+{
+    flex-wrap: wrap;
+}
+
+nav a:hover
+{
+    color: #0065FC;
+    border-top: 7px solid #0065FC;
+}
