@@ -12,7 +12,7 @@ body
 .bloc_page
 {
     padding-top: 0.5em;
-    width: 85%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -35,7 +35,17 @@ a:visited
     color: #333;
 }
 
-/* header */
+.fa-star.gris
+{
+    color: #F2F2F2;
+}
+
+.fa-star
+{
+    color: #0065FC;
+}
+
+/* Header */
 
 .signin
 {
@@ -68,6 +78,7 @@ header li
     display: flex;
     justify-content: space-between;
     margin-top: 10px;   
+    
 }
 
 .Navigate img
@@ -170,8 +181,8 @@ h1
 .third_part
 {
     padding-top: 1em;
-    display: flex;
     align-items: baseline;
+    width: 100%;
 }
 
 h2
@@ -187,8 +198,8 @@ h2
 .pictogrammes
 {
     display: flex;
-    padding-top: 0.8em;
-    padding-left: 2em;
+    padding-top: 0.5em;
+    padding-right: 1em;
 }
 
 .Button_filter
@@ -255,31 +266,111 @@ h2
     padding-bottom: 2em;
 }
 
+/* Les plus populaires */
+
+.all_hebergment
+{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.popular_container
+{
+    height: 40em;
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 1em;
+}
+
+.boxp
+{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 145px;
+    margin: 1em 1em 1em 1em;
+    border-radius: 15px;
+    border: 4px white solid;
+    box-shadow: 4px 4px 6px #aaa;
+}
+
+
+.boxp img
+{
+    height: 9em;
+    width: 6em;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.boxp a
+{
+    display: flex;
+}
+
+.container_box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular_container h3
+{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 1.2em;
+}
+
+.menu_hotel
+{
+    margin-top: 00.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.pop
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 1.5em;
+    padding-left: 2.7em;
+    padding-right: 2.7em;
+}
+
+.boxp:hover
+{
+    transform: scale(1.10);
+}
+
 /* Hébergements */
 
 .Hebergment_container
 {
-    width: 67%;
-    height: 40em;
+    width: 100%;
+    height: 45em;
     border-radius: 15px;
-    margin-right: 1em;
 }
 
 .first_ligne
 {
     display: flex;
     justify-content: space-around;
-    margin: 1em 2em 1em 2em;
-    
-    
+    margin: 1em 2em 1em 2em;   
 }
 
 .second_ligne
 {
     display: flex;
     justify-content: space-around;
-    margin: 2em 2em 2em 2em;
-   
+    margin: 2em 2em 2em 2em;  
 }
 
 
@@ -302,21 +393,10 @@ h2
 .box img
 {
     width: 100%;
-    height: 7.8em;
+    height: 130px;
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-}
-   
-
-.fa-star.gris
-{
-    color: #F2F2F2;
-}
-
-.fa-star
-{
-    color: #0065FC;
 }
 
 .box h3
@@ -348,92 +428,6 @@ h2
 {
     font-weight: bold;
     padding-top: 0em;
-    padding-left: 1.5em;
-}
-
-/* Les plus populaires */
-
-.all_hebergment
-{
-    display: flex;
-    justify-content: space-between;
-}
-
-.popular_container
-{
-    height: 40em;
-    width: 33%;
-    border-radius: 15px;
-}
-
-.popular_container .Star
-{
-    margin-left: 0px;
-}
-
-.boxp
-{
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    width: 85%;
-    height: 145px;
-    margin: 0em 2em 2em 2em;
-    border-radius: 15px;
-    border: 4px white solid;
-    box-shadow: 4px 4px 6px #aaa;
-}
-
-.boxp img
-{
-    height: 9em;
-    width: 8em;
-    object-fit: cover;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-}
-
-.popular_container .container_box
-{
-    margin-top: 0.7em;
-}
-
-.pop
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    margin-top: 1.5em;
-    padding-left: 2.7em;
-    padding-right: 2.7em;
-}
-
-.boxp a
-{
-    display: flex;
-}
-
-.menu_hotel
-{
-    margin-left: 1.5em;
-    width: 50%;
-}
-
-.popular_container h3
-{
-    margin-bottom: 0px;
-    margin-top: 10px;
-}
-
-.popular_container p
-{
-    margin-top: 10px;
-    margin-bottom: 1.5em;
-}
-
-.boxp:hover
-{
-    transform: scale(1.10);
 }
 
 /* Activités */
@@ -561,6 +555,7 @@ h2
 .TallBox h3
 {
     margin-left: 1em;
+    margin-top: 0.5em;
 }
 
 .LittleBox1:hover, .LittleBox2:hover, .LittleBox3:hover, .LittleBox4:hover, .TallBox:hover
@@ -574,7 +569,7 @@ footer
 {
     display: flex;
     justify-content: space-between;
-    padding-right: 22em;
+    padding-right: 2em;
 }
 
 footer li
@@ -593,5 +588,3 @@ footer ul
 {
     padding-top: 1em;
 }
-
-
