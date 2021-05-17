@@ -39,12 +39,16 @@ a:visited
 
 .signin
 {
-    color: #0065FC;
     padding-left: 40px;
     padding-bottom: 11px;
     display: flex;
     align-items: center;
     font-weight: bold;
+}
+
+.signin a
+{
+    color: #0065FC;
 }
 
 .signin a:visited
@@ -156,6 +160,7 @@ h1
 {
     font-size: 1.2em;
     color: black;
+    opacity: 1;
     font-weight: bold;
     padding-left: 15px;
 }
