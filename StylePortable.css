@@ -164,7 +164,7 @@ h1
     border-bottom-left-radius: 15px;
 }
 
-#MaRecherche
+#MaRecherche2
 {
     height: 40px;
     width: 240px;
@@ -210,4 +210,97 @@ h1
 input
 {
     padding-left: 15px;
+}
+
+/* Filtres */
+
+.third_part
+{
+    padding-top: 1em;
+    align-items: baseline;
+    width: 100%;
+    margin-left: 1em;
+}
+
+h2
+{
+    font-size: 1.2em;
+}
+
+.Fliter_container
+{
+    display: flex;
+}
+
+.pictogrammes
+{
+    display: flex;
+    padding-top: 0.5em;
+    padding-right: 1em;
+    flex-wrap: wrap;
+}
+
+.Button_filter
+{
+    display: flex;
+    margin: 0px 1.5em 10px 0em;
+    border-top: 2px #F2F2F2 solid;
+    border-bottom: 2px #F2F2F2 solid;
+    border-right: 2px #F2F2F2 solid;
+    border-radius: 60px;
+    height: 40px;
+    align-items: center;
+}
+
+.Button_filter:hover
+{
+    transform: scale(1.15);
+    background-color: #F2F2F2;
+}
+
+.Button_filter h2
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Button_filter i
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    padding: 0.8em;
+    border-radius: 30px;
+    border-color: #DEEBFF;
+    background-color:#DEEBFF;
+    color: #0065FC;
+}
+
+.Button_info
+{
+    padding-top: 1em;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-left: 1em;
+}
+
+.Button_info i
+{
+    color: #0065FC;
+    border: 2px #F2F2F2 solid;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.Button_info p
+{
+    padding-left: 1em;
+    padding-bottom: 2em;
 }
