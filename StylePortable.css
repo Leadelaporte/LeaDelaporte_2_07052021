@@ -286,11 +286,6 @@ h2
     margin-left: 1em;
 }
 
-.Button_info p
-{ 
-    flex-wrap: wrap;
-}
-
 .Button_info i
 {
     color: #0065FC;
@@ -305,6 +300,7 @@ h2
 
 .Button_info p
 {
-    padding-left: 1em;
+    padding-left: 1.2em;
     padding-bottom: 2em;
+    flex-wrap: wrap;
 }
