@@ -151,6 +151,10 @@ h1
     border-bottom-right-radius: 15px;
 }
 
+.Marseille2
+{
+    display: none;
+}
 .fas.fa-search
 {
     color: white;

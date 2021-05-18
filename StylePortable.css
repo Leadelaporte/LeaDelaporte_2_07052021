@@ -77,6 +77,7 @@ header li
 {
     justify-content: space-between;
     margin-top: 10px;   
+    display: block;
     
 }
 
@@ -88,22 +89,125 @@ header li
 
 .menu
 {
+    width: 100%;
     display: flex;
 }
 
 ol
 {
     display: flex;
-    align-items: center;
+    padding-top: 1em;
+    padding-left: 0em;
+    padding-bottom: 0.5em;
+    border-bottom: 3px #F2F2F2 solid;
 }
 
-nav a
+.Navigate li
 {
-    flex-wrap: wrap;
+    width: 50%;
 }
 
-nav a:hover
+.Navigate a
 {
+    font-size: 1.3em;
+}
+
+nav
+{
+    width: 100%;
+}
+
+ol a:hover
+{
+    width: 50%;
+    padding-bottom: 0.4em;
     color: #0065FC;
-    border-top: 7px solid #0065FC;
+    border-bottom: 3px solid #0065FC;
+}
+
+.logo
+{
+    margin-left: 1em;
+}
+
+/* Recherche */
+
+.second_part
+{
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+.second_part p
+{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+h1
+{
+    font-size: 1.4em;
+    margin-bottom: 0px;
+}
+
+.recherche
+{
+    display: flex;
+    height: 40px;
+}
+
+.fas.fa-map-marker-alt
+{
+    padding: 0.8em;
+    background-color: #F2F2F2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#MaRecherche
+{
+    height: 40px;
+    width: 240px;
+    border: none;
+}
+
+.search
+{
+    background-color: #0065FC;
+    font-size: 1.1em;
+    cursor: pointer;
+    height: 40px;
+    width: 50px;
+    border: 1px #0065FC solid;
+    border-radius: 15px;
+}
+
+.Marseille1
+{
+    display: none;
+}
+
+.Marseille2
+{
+    border: 1px #F2F2F2 solid;
+    border-right: none;
+}
+
+
+.fas.fa-search
+{
+    color: white;
+}
+
+::placeholder
+{
+    font-size: 1.2em;
+    color: black;
+    opacity: 1;
+    font-weight: bold;
+}
+
+input
+{
+    padding-left: 15px;
 }
