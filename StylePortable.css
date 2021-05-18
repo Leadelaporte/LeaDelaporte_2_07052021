@@ -283,8 +283,12 @@ h2
     padding-top: 1em;
     display: flex;
     align-items: baseline;
-    flex-wrap: wrap;
     margin-left: 1em;
+}
+
+.Button_info p
+{ 
+    flex-wrap: wrap;
 }
 
 .Button_info i
