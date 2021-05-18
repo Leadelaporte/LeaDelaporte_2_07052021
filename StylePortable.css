@@ -480,3 +480,168 @@ h2
     left: 0em;
     top: 95em;
 }
+
+/* Activités */
+
+.Activity_container h2
+{
+    margin-top: 2.5em;
+    margin-left: 1em;
+    font-size: 1.4em;
+}
+
+.Activity_container
+{
+    padding-bottom: 2em;
+    width: 100%;
+}
+
+.Activity_flex
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.column1 .column2
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.TallBox img
+{
+    width: 100%; 
+    height: 130px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.LittleBox1 img
+{
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.LittleBox2 img
+{
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.LittleBox3 img
+{
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.LittleBox4 img
+{
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.TallBox
+{
+    width: 90%;
+    padding-bottom: 0em;
+    margin-bottom: 1em;
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px #aaa;
+}
+
+.column1
+{
+    width: 90%;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.column2
+{
+    width: 90%;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.LittleBox1
+{
+    margin-bottom: 1em;
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px #aaa;
+}
+
+.LittleBox2
+{
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px #aaa; 
+}
+
+.LittleBox3
+{
+    margin-bottom: 1em;
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px #aaa;
+}
+
+.LittleBox4
+{
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px #aaa; 
+}
+
+.column1 h3, .column2 h3
+{
+    padding-bottom: 1em; 
+    margin-left: 1em;
+}
+
+.TallBox h3
+{
+    margin-left: 1em;
+}
+
+.LittleBox1:hover, .LittleBox2:hover, .LittleBox3:hover, .LittleBox4:hover, .TallBox:hover
+{
+    transform: scale(1.05);
+}
+
+/* Footer */
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer li
+{
+    list-style: none;
+    line-height: 2;
+}
+
+footer h4
+{
+    font-weight: bold;
+    margin-bottom: 0.4em;
+}
+
+footer ul
+{
+    padding-top: 1em;
+}
