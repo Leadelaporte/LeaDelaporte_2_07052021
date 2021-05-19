@@ -49,7 +49,6 @@ a:visited
 
 .signin
 {
-    align-items: center;
     font-weight: bold;
     position: absolute;
     top: 2.5em;
@@ -75,22 +74,14 @@ header li
 
 .Navigate
 {
-    justify-content: space-between;
     margin-top: 10px;   
     display: block;
-    
 }
 
 .Navigate img
 {
     height: 50px;
     padding-top: 8px;
-}
-
-.menu
-{
-    width: 100%;
-    display: flex;
 }
 
 ol
@@ -193,7 +184,6 @@ h1
     border-right: none;
 }
 
-
 .fas.fa-search
 {
     color: white;
@@ -217,7 +207,6 @@ input
 .third_part
 {
     padding-top: 1em;
-    align-items: baseline;
     width: 100%;
     margin-left: 1em;
 }
@@ -311,7 +300,6 @@ h2
 {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: space-between;
 }
 
 .popular_container
