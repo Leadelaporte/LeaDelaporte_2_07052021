@@ -76,7 +76,6 @@ header li
 .Navigate
 {
     display: flex;
-    justify-content: space-between;
     margin-top: 10px;   
     
 }
@@ -95,7 +94,6 @@ header li
 ol
 {
     display: flex;
-    align-items: center;
 }
 
 nav a
@@ -187,7 +185,6 @@ h1
 .third_part
 {
     padding-top: 1em;
-    align-items: baseline;
     width: 100%;
 }
 
@@ -196,16 +193,10 @@ h2
     font-size: 1.2em;
 }
 
-.Fliter_container
-{
-    display: flex;
-}
-
 .pictogrammes
 {
     display: flex;
     padding-top: 0.5em;
-    padding-right: 1em;
 }
 
 .Button_filter
@@ -278,7 +269,6 @@ h2
 {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: space-between;
 }
 
 .popular_container
@@ -321,7 +311,6 @@ h2
 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .container_box2
@@ -375,14 +364,12 @@ h2
 .first_ligne
 {
     display: flex;
-    justify-content: space-around;
     margin: 1em 2em 1em 2em;   
 }
 
 .second_ligne
 {
     display: flex;
-    justify-content: space-around;
     margin: 2em 2em 2em 2em;  
 }
 
@@ -439,7 +426,6 @@ h2
 .more 
 {
     font-weight: bold;
-    padding-top: 0em;
 }
 
 /* Activités */
@@ -514,7 +500,6 @@ h2
 {
     width: 25%;
     height: 33em;
-    padding-bottom: 0em;
     border-radius: 15px;
     box-shadow: 4px 4px 6px #aaa;
 }
