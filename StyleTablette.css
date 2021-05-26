@@ -193,17 +193,22 @@ h2
     font-size: 1.2em;
 }
 
+.Fliter_container
+{
+    display: flex;
+}
+
 .pictogrammes
 {
     display: flex;
     padding-top: 0.5em;
+    flex-wrap: wrap;
 }
 
 .Button_filter
 {
     display: flex;
-    padding-right: 1em;
-    margin-right: 1.5em;
+    margin: 0px 1.5em 10px 0em;
     border-top: 2px #F2F2F2 solid;
     border-bottom: 2px #F2F2F2 solid;
     border-right: 2px #F2F2F2 solid;
